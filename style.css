@@ -1,0 +1,291 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
+
+.wrapper-header{
+    padding: 10em 0em;
+    text-align: center;
+    position: relative;
+    background: #ddd url('image/header.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.wrapper-header .row-nav {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    margin-bottom: 3em;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.logo h1 a{
+    display: block;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 900;
+    color: #323338;
+}
+
+.logo span{
+    display: block;
+    padding-top: 1em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: #8e8588;
+}
+
+.nav .row-nav {
+    display: inline-block;
+    padding: 0em 3em;
+    border-radius: 40px;
+    background: #131313;
+}
+ 
+.nav .row-nav .col-nav {
+    display: inline-block;
+}
+
+.nav .row-nav .col-nav a{
+    display: block;
+    padding: 1.3em 1.5em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 1em;
+    outline: 0;
+    color: #7b7b7b;
+}
+
+.nav .row-nav .one-nav a{
+    color: #ffffff;
+}
+
+.nav .row-nav .col-nav a:hover{
+   color: #ffffff;
+}
+
+.wrapper-main{
+    font-family: 'Oxygen', sans-serif;
+    padding: 6em 0em;
+    position: relative;
+    background: #fff url('image/overlay.png') repeat;
+}
+
+.wrapper-main .col-main p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 12pt;
+    line-height: 2em;
+}
+
+.text-main{
+    margin-bottom: 2em;
+}
+
+.text-main h2{
+    font-size: 3em;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+
+.row-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.row-main .col-main {
+ width: 25%;
+ box-sizing: border-box;
+ padding:15px
+}
+
+.images {
+    display: block;
+    width: 100%;
+    margin: 0 0 2em 0;
+}
+
+.images img{
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.row-main .col-main .botton ,
+.row-center .col-left .botton  {
+    position: relative;
+    display: inline-block;
+    margin-top: 2em;
+    padding: 0.8em 1.5em;
+    background: #1d1d1d;
+    border-radius: 6px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.divider {
+    margin: 7em 0em 5em 0em;
+    overflow: hidden;
+    border-top: 1px solid #dbdbdb;
+}
+
+.row-center{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.col-left{
+    width: 66.6666666667%;    
+}
+
+.text-left h2{
+    letter-spacing: -1px;
+    font-size: 3em;
+}
+
+.text-left .byline{
+    margin: 0.5em 0 0 0;
+    padding: 0.50em 0 1em 0;
+    display: block;
+    text-transform: uppercase;
+}
+
+a{
+    color: #ff0000;
+}
+
+p{
+    margin-bottom: 1em;
+}
+
+.col-right{
+    padding-left: 50px;
+    width: 33.3333333333%;
+}
+
+.defauta {
+    padding: 0.50em 0em;
+}
+
+.defauta :hover {
+     text-decoration: none;
+}
+
+.wrapper-footer {
+    font-family: 'Oxygen', sans-serif;
+    padding: 6em 0em;
+    position: relative;
+    background: #121212;
+    color: rgba(255,255,255,.4);
+}
+
+.row-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.col-footer{
+    width: 22%;
+    margin-right: 3%;
+}
+
+.col-footer img {
+    float: left;
+    margin-right: 1.50em;
+    border-radius: 6px;
+}
+
+.col-footer .box-footer {
+    padding: 0.80em 0em;
+    line-height: 1.8em;
+    font-size: 0.90em;
+}
+
+.col-footer-right {
+    width: 50%;
+}
+.col-footer-right h2 {
+font-size: 3em;
+letter-spacing: -1px;
+font-weight: 700;
+color: #fff;
+
+}
+
+.col-footer-right .aenean{
+    margin-bottom: 1em;
+}
+
+.box-footer .poster{
+    display: block;
+    margin-top: 1em;
+    padding: 0.50em 0em;
+}
+
+.wrapper-copyright{
+    position: relative;
+    padding: 3em 0em;
+    text-align: center;
+    color: rgba(255,255,255,.2);
+    background-color: black;
+}
+
+.wrapper-copyright a {
+    text-decoration: none;
+    color: rgba(255,255,255,.3);
+}
+
+@media only screen and (max-width: 1000px) {
+    .container{
+        width: auto;
+    }
+
+    .nav {
+        margin: auto;
+        width: 700px;
+    }
+    
+  }
+
+@media only screen and (max-width: 700px) {
+    .container{
+        width: auto;
+       font-size: 13px;
+    }
+
+    .nav {
+       flex-wrap: wrap;
+       flex-direction: column;
+       width: 100px;
+    }
+}
+
+
+  
+
+@media only screen and (max-width: 1000px) {
+      .row-main
+    
+}
